@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.container {
+    width: min(100% - 4vw, 1400px);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+}
+.navbar  a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.navbar  a:hover {
+    color: rgb(184, 183, 183);
+    transition: 0.5s;
+}
+.body {
+    background-image: url(./imgages/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.h1 {
+    color: white;
+    font-weight: 10;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    margin-top: 150px;
+    flex-direction: column;
+    }
+.daniel {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: flex-end;
+    height: inherit;
+    }
+.div1 {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    }
+    .menu a{
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+        padding: 5px;
+        transition: 0.5s;
+    }
+    .menu a:hover {
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+    }
+    .body2 {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .body2 h1 {
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 5px 5px 5px 5px #888888;
+    
+    }
+    .pizza a{
+        background-color:rgb(244,67,54);
+        padding: 20px 130px;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .salad a{
+        background-color:black;
+        padding: 20px 130px;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+    .salad a:hover {
+        background-color: rgb(244,67,54);
+    }
+    .start a{
+        background-color:black;
+        padding: 20px 130px;
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+    .start a:hover {
+        background-color: rgb(244,67,54);
+    }
+
+    .nav {
+        box-shadow: 5px 5px 5px 5px #888888;
+        height: inherit;
+        font-size: 20px;
+        background-color: white;
+        margin-bottom: 200px;
+    }
+    .nav p {
+         margin-left: 20px;
+         margin-top: 20px;
+        margin-bottom: 30px;
+        font: 30px;
+     }
+     .flex1 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        margin-right: 30px;
+     }
+     .div p{
+        background-color: rgb(97,97,97);
+        color: white;
+        margin-left: 0;
+        margin-top: 10px;
+       margin-bottom: 0;
+       padding: 5px;
+     }
+     .flex p {
+        font-size: 30px;
+     }
+     .body3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(139,95,91);
+        justify-content: center;
+        padding: 50px 300px;
+        font-size: 20px;
+        color: white;
+     }
+     .body3 h1 {
+        margin-bottom: 100px;
+        font-size: 60px;
+     }
+     .body3 img {
+        width: 100%;
+     }
+     .dan img {
+        width: 200px;
+        border-radius: 50%;
+     }
+     .dan {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 500px;
+     }
+     .emma {
+        margin-top: 50px;
+        display: flex;
+        align-items: end;
+        gap: 200px;
+     }
+     .emma h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+     }
+     .emma p {
+        margin-bottom: 20px;
+     }
+     .body4 img {
+        width: 100%;
+     }
+     .body5 {
+        background-color: rgb(108,122,129);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        padding: 50px 300px;
+        font-size: 20px;
+        color: white;
+     }
+     .body5 h1 {
+        margin-bottom: 100px;
+     }
+     .body5 p {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 30px;
+     }
+     .body5 b {
+        background-color: black;
+        padding: 5px;
+        margin-right: 5px;
+     }
+    
+    input {
+       width: 700px;
+       height: 50px;
+       font-size: 20px;
+       padding-left: 20px;
+    }
+    .message a input {
+       background-color: black;
+       color: white;
+       padding: 5px 10px;
+       margin-bottom: 100px;
+       text-decoration: none;
+       transition: 0.5s;
+   
+    }
+    .message {
+       margin-top: 30px;
+    }
+    .message a input:hover {
+       background-color: white;
+       color: black;
+       transition: 0.5s;
+       box-shadow: 5px 5px 5px 5px #888888;
+    }
+    @media screen and (max-width:900px) {
+        .pizza a {
+            padding: 10px 70px ;
+            width: 100%;
+        }
+        .salad a {
+            padding: 10px 70px;
+            width: 100%;
+        }
+        .start a {
+            padding: 10px 70px;
+            width: 100%;
+        }
+        .dan {
+            gap: 300px;
+        }
+        .body3 {
+            padding: 50px;
+        }
+        .body5 {
+            padding: 50px;
+        }
+    }
+    @media screen and (max-width:750px) {
+        .dan {
+            flex-direction: column;
+            gap: 40px;
+        }
+        .emma {
+            flex-direction: column;
+            gap: 50px;
+        }
+        input {
+            width: 100%;
+        }
+        .pizza a {
+            padding: 10px 7px ;
+            width: 100%;
+        }
+        .salad a {
+            padding: 10px 7px;
+            width: 100%;
+        }
+        .nav {
+            width: 100%;
+        }
+        .start a {
+            padding: 10px 5px;
+            width: 100%;
+        }
+        .body h1 {
+            font-size: 40px;
+        }
+    }
