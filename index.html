@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>HOME PAGE</title>
 </head>
 <body>
     <div class="container">
@@ -50,13 +50,13 @@
         <div class="nav">
             <div class="link">
                 <div class="eat">
-                    <a href="#">Eat</a>
+                    <button href="#" onclick="myFunc(event, 'dem')" >Eat</button>
                 </div>
                 <div class="drink">
-                    <a href="#">Drink</a>
+                    <button href="#"onclick="myFunc(event, 'demo')" >Drink</button>
                 </div>
             </div>
-            <div class="bread">
+            <div class="bread bread1" id="dem">
             <p><b>Bread Basket</b></p>
             <p>Assortment of fresh baked fruit breads and muffins 5.50
             </p>
@@ -74,6 +74,24 @@
             <p>With syrup, butter and lots of berries 8.50
                 </p>
             </div>
+            <div class="bread" id="demo">
+                <p><b>Coffee</b></p>
+                <p>Regular coffee 2.5
+                </p>
+                <p><b>Chocolato</b></p>
+                <p>Chocolate espresso with milk 4.50
+                </p>
+                <p><b>Corretto
+                </b></p>
+                <p>Whiskey and coffee 5.00</p>
+                <p><b>Iced tea</b></p>
+                <p>Hot tea, except not hot 3.00
+                </p>
+                <p><b>Soda
+                </b></p>
+                <p>Coke, Sprite, Fanta, etc. 2.50
+                    </p>
+                </div>
         </div>
         <img src="./imgages/coffeecup.jpg" alt="">
     </div>
@@ -103,4 +121,5 @@
     </div>
     </div>
 </body>
+<script src="js.js"></script>
 </html>

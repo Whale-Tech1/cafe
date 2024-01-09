@@ -103,31 +103,43 @@
         box-shadow: 5px 5px 5px 5px #888888;
     
     }
-    .pizza a{
-        background-color:rgb(244,67,54);
+    .pizza button{
+        background-color: black;
         padding: 20px 130px;
         color: white;
         text-decoration: none;
         font-size: 30px;
     }
-    .salad a{
+    .pizza button:focus {
+        background-color:rgb(244,67,54);
+    }
+    .active {
+        background-color:rgb(244,67,54);
+        }
+    .salad button{
         background-color:black;
         padding: 20px 130px;
         text-decoration: none;
         color: white;
         font-size: 30px;
     }
-    .salad a:hover {
+    button.active {
+        background-color:rgb(244,67,54);
+        }
+    .salad button:hover {
         background-color: rgb(244,67,54);
     }
-    .start a{
+    .start button{
         background-color:black;
         padding: 20px 130px;
         text-decoration: none;
         color: white;
         font-size: 30px;
     }
-    .start a:hover {
+    button.active {
+        background-color:rgb(244,67,54);
+        }
+    .start button:hover {
         background-color: rgb(244,67,54);
     }
 
@@ -254,16 +266,22 @@
        transition: 0.5s;
        box-shadow: 5px 5px 5px 5px #888888;
     }
+    .content {
+        display: none;
+    }
+    .content1 {
+        display: block;
+    }
     @media screen and (max-width:900px) {
-        .pizza a {
+        .pizza button {
             padding: 10px 70px ;
             width: 100%;
         }
-        .salad a {
+        .salad button {
             padding: 10px 70px;
             width: 100%;
         }
-        .start a {
+        .start button {
             padding: 10px 70px;
             width: 100%;
         }
@@ -289,18 +307,18 @@
         input {
             width: 100%;
         }
-        .pizza a {
+        .pizza button {
             padding: 10px 7px ;
             width: 100%;
         }
-        .salad a {
+        .salad button {
             padding: 10px 7px;
             width: 100%;
         }
         .nav {
             width: 100%;
         }
-        .start a {
+        .start button {
             padding: 10px 5px;
             width: 100%;
         }

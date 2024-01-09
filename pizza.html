@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pizza.css">
-    <title>Document</title>
+    <title>PIZZA</title>
 </head>
 <body>
     <div class="container">
@@ -33,17 +33,17 @@
     <h1 class="#menu"><i>THE MENU </i></h1>
     <div class="nav">
         <div class="link">
-            <div class="pizza">
-                <a href="#"><i>PIZZA</i></a>
+            <div class="pizza" >
+                <button onclick="myFunc(event, 'demo')" ><i>PIZZA</i></button>
             </div>
             <div class="salad">
-                <a href="#"><i>SALAD</i></a>
+                <button onclick="myFunc(event, 'demos')"><i>SALAD</i></button>
             </div>
             <div class="start">
-                <a href="#"><i>STARTER</i></a>
+                <button onclick="myFunc(event, 'dem')"><i>STARTER</i></button>
             </div>
         </div>
-        <div class="content">
+        <div class="content content1" id="demo" >
             <div class="flex">
             <div class="flex1">
         <p><b><i>Margherita</i></b></p>
@@ -117,6 +117,107 @@
     <p><i>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</i></p>
 </div>
 </div>
+<div class="content" id="demos">
+    <div class="flex">
+    <div class="flex1">
+<p><b><i>Lasagna Popular</i></b></p>
+<div class="div">
+    <p>
+        <i>$13.50
+        </i>
+    </p>
+</div>
+    </div>
+    <p><i>Special sauce, mozzarella, parmesan, ground beef</i></p>
+</div>
+<div class="flex">
+<div class="flex1">
+<p><b><i>Ravioli</i></b></p>
+<div class="div">
+<p>
+    <i>$14.50
+    </i>
+</p>
+</div>
+</div>
+<p><i>Ravioli filled with cheese</i></p>
+</div>
+<div class="flex">
+<div class="flex1">
+<p><b><i>Spaghetti Classica</i></b></p>
+<div class="div">
+<p>
+<i>$11.00   
+</i>
+</p>
+</div>
+</div>
+<p><i>Fresh tomatoes, onions, ground beef</i></p>
+</div>
+<div class="flex">
+<div class="flex1">
+<p><b><i>Seafood pasta</i></b></p>
+<div class="div">
+<p>
+<i>$25.50
+</i>
+</p>
+</div>
+</div>
+<p><i>Salmon, shrimp, lobster, garlic</i></p>
+</div>
+</div>
+<div class="content" id="dem">
+    <div class="flex">
+    <div class="flex1">
+<p><b><i>Today's Soup Seasonal</i></b></p>
+<div class="div">
+    <p>
+        <i>$5.50
+        </i>
+    </p>
+</div>
+    </div>
+    <p><i>Ask the waiter</i></p>
+</div>
+<div class="flex">
+<div class="flex1">
+<p><b><i>Bruschetta</i></b></p>
+<div class="div">
+<p>
+    <i>$8.50
+    </i>
+</p>
+</div>
+</div>
+<p><i>Bread with pesto, tomatoes, onion, garlic</i></p>
+</div>
+<div class="flex">
+<div class="flex1">
+<p><b><i>Garlic bread</i></b></p>
+<div class="div">
+<p>
+<i>$9.50
+</i>
+</p>
+</div>
+</div>
+<p><i>Grilled ciabatta, garlic butter, onions</i></p>
+</div>
+<div class="flex">
+<div class="flex1">
+<p><b><i>Tomozzarella</i></b></p>
+<div class="div">
+<p>
+<i>$10.50
+</i>
+</p>
+</div>
+</div>
+<p><i>Tomatoes and mozzarella</i></p>
+</div>
+
+</div>
     </div>
 </div>
 <div class="body3">
@@ -164,5 +265,6 @@
     </div>
 </div>
 </div>
+<script src="js.js"></script>
 </body>
 </html>

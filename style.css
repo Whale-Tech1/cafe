@@ -99,6 +99,12 @@ body {
     opacity: 1;
     transition: 0.5s;
 }
+.bread {
+    display: none;
+}
+.bread1 {
+    display: block;
+}
 .body3 {
     display: flex;
     flex-direction: column;
@@ -130,19 +136,32 @@ background-color: white;
     box-shadow: 5px 5px 5px 5px #888888;
 
 }
-.eat a{
-    background-color: rgb(97,97,97);
+.eat button{
+    /* background-color: rgb(97,97,97); */
     padding: 5px 150px;
-    color: white;
+    color:black;
     text-decoration: none;
     font-size: 20px;
+    border: none;
 }
-.drink a{
+.active {
     background-color:white;
+    columns: white;
+    
+}
+.drink button{
+    /* background-color:white; */
     padding: 5px 150px;
     text-decoration: none;
     color: black;
     font-size: 20px;
+    border: none;
+
+}
+.active {
+    background-color: rgb(97,97,97);
+    color: white;
+    
 }
 .nav {
     box-shadow: 5px 5px 5px 5px #888888;
@@ -270,10 +289,10 @@ background-color: white;
     .link {
         width: 100%;
     }
-    .eat a{
+    .eat button{
     padding: 5px 100px;
     }
-    .drink a{
+    .drink button{
         padding: 5px 100px;
         }
     
