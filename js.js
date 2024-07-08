@@ -1,3 +1,4 @@
+
 function myFunc(evt, menu) {
     let content = document.querySelectorAll('.content')
     let i;
@@ -11,7 +12,7 @@ function myFunc(evt, menu) {
     document.getElementById(menu).style.display = ' block';
     evt.currentTarget.className += ' active';
 }
-function myFunc(evt, menu) {
+function myFunction(evt, menu) {
     let bread = document.querySelectorAll('.bread')
     let i;
     for(i = 0; i < bread.length; i++) {

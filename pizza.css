@@ -26,6 +26,9 @@
     justify-content: space-around;
     z-index: 100;
 }
+.content {
+    display: none;
+}
 .navbar  a{
     color: white;
     text-align: center;
